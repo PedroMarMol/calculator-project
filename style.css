@@ -1,0 +1,47 @@
+* {
+    font-family: Arial;
+}
+.calculatorDiv {
+    border: 3px solid darkgrey;
+    border-radius: 15px;
+    background-color: #708090;
+    position: absolute;                     /* this centers the calculator */
+    width: 300px;
+    height: 450px;
+    top: 30%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+}
+
+.buttonsGrid {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(4, 69px); /*  4x4 grid */
+    margin: 5px 5px;
+}
+
+button {
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+.display {
+    height: 70px;
+    text-align: right;
+    line-height: 90px;
+    padding: 16px 8px;
+    font-size: 35px;    
+}
+
+.clearButton {
+    font-size: 25px;
+    background-color: rgb(238, 57, 57);
+    width: 290px;
+    margin: 5px 5px;
+    padding: 15px;    
+}
+
+.buttonsGrid > button {
+    padding: 15px;
+    background-color: #ccc;
+}
